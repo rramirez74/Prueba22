@@ -1,0 +1,27 @@
+.boxData {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #575F6B;
+  cursor: pointer;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.no_image {
+  width: 100px;
+  height: 100px;
+  color: #575F6B;
+}
+
+.delay {
+  transition: opacity 2s ease;
+  transition-property: left;
+  transition-duration: 2s;
+}
